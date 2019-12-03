@@ -9,6 +9,7 @@ attr_accessor :path
 
   def files
   Dir.entries('spec/fixtures/mp3s').sort[2..5]
+  binding.pry
   #https://stackoverflow.com/questions/1755665/get-names-of-all-files-from-a-folder-with-ruby
   end
 
